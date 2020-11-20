@@ -13,44 +13,21 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.viewRowContainer}>
-        <TouchableWithoutFeedback onPress={() => { console.log('Touchable Clicked') }}>
+        <TouchableWithoutFeedback onPress={() => { }}>
           <View style={styles.buttonContainer}>
             <Text style={styles.buttonText}>
               {getBtnTxt}
             </Text>
           </View>
         </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress={() => { console.log('Touchable Clicked') }}>
+        <TouchableWithoutFeedback onPress={() => { }}>
           <View style={styles.buttonContainer}>
             <Text style={styles.buttonText}>
               {getBtnTxt}
             </Text>
           </View>
         </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress={() => { console.log('Touchable Clicked') }}>
-          <View style={styles.buttonContainer}>
-            <Text style={styles.buttonText}>
-              {getBtnTxt}
-            </Text>
-          </View>
-        </TouchableWithoutFeedback>
-      </View>
-      <View style={styles.viewRowContainer}>
-        <TouchableWithoutFeedback onPress={() => { console.log('Touchable Clicked') }}>
-          <View style={styles.buttonContainer}>
-            <Text style={styles.buttonText}>
-              {getBtnTxt}
-            </Text>
-          </View>
-        </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress={() => { console.log('Touchable Clicked') }}>
-          <View style={styles.buttonContainer}>
-            <Text style={styles.buttonText}>
-              {getBtnTxt}
-            </Text>
-          </View>
-        </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress={() => { console.log('Touchable Clicked') }}>
+        <TouchableWithoutFeedback onPress={() => { }}>
           <View style={styles.buttonContainer}>
             <Text style={styles.buttonText}>
               {getBtnTxt}
@@ -59,21 +36,44 @@ export default function App() {
         </TouchableWithoutFeedback>
       </View>
       <View style={styles.viewRowContainer}>
-        <TouchableWithoutFeedback onPress={() => { console.log('Touchable Clicked') }}>
+        <TouchableWithoutFeedback onPress={() => { }}>
           <View style={styles.buttonContainer}>
             <Text style={styles.buttonText}>
               {getBtnTxt}
             </Text>
           </View>
         </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress={() => { console.log('Touchable Clicked') }}>
+        <TouchableWithoutFeedback onPress={() => { }}>
           <View style={styles.buttonContainer}>
             <Text style={styles.buttonText}>
               {getBtnTxt}
             </Text>
           </View>
         </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress={() => { console.log('Touchable Clicked') }}>
+        <TouchableWithoutFeedback onPress={() => { }}>
+          <View style={styles.buttonContainer}>
+            <Text style={styles.buttonText}>
+              {getBtnTxt}
+            </Text>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
+      <View style={styles.viewRowContainer}>
+        <TouchableWithoutFeedback onPress={() => { }}>
+          <View style={styles.buttonContainer}>
+            <Text style={styles.buttonText}>
+              {getBtnTxt}
+            </Text>
+          </View>
+        </TouchableWithoutFeedback>
+        <TouchableWithoutFeedback onPress={() => { }}>
+          <View style={styles.buttonContainer}>
+            <Text style={styles.buttonText}>
+              {getBtnTxt}
+            </Text>
+          </View>
+        </TouchableWithoutFeedback>
+        <TouchableWithoutFeedback onPress={() => { }}>
           <View style={styles.buttonContainer}>
             <Text style={styles.buttonText}>
               {getBtnTxt}
